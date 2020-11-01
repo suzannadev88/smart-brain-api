@@ -166,7 +166,6 @@ app.put('/imageurl', (req, res) => { image.handleApiCall(req, res)})
 app.listen(process.env.PORT || 3001, () => {
     //func will run after server started on 3000
     console.log('app is running on port ${process.env.PORT}')
-})
 
 //PLANNING API BELOW
 /*
